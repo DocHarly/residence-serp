@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 4</title>
+	<title>Residence Serpukhov</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,30 +23,33 @@
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
 
 <body>
 
-	<header><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem corporis, dicta dolorem ducimus ea eveniet fugiat ipsa nam natus non perferendis praesentium, reiciendis saepe similique sit ullam. Quam.</p></header>
+	<nav class="navbar navbar-bg">
+		<a class="navbar-brand" href="#">
+			<img src="img/favicon/logo.png" width="55" class="img-responsive d-inline-block align-top" alt="">
+		</a>
+	</nav>
 
 	<div class="container">
 
 		<div class="row">
 
-			<div class="col-3">
-				
-				<h2>Welcome to startup HTML template OptimizedHTML 4!</h2>
-
-				<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Ad distinctio animi, dolorum eaque praesentium unde aliquid, mollitia itaque voluptate quos modi et incidunt tempora fugiat voluptatum quia esse dolor repellat.</p>
-				<p>Nemo velit incidunt assumenda, eaque, sequi vitae facilis doloribus qui totam, fuga iure dignissimos ab non praesentium. Vitae similique, corrupti aliquam nam modi explicabo distinctio qui cum officia ullam quam!</p>
-
+			<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+				<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+				<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+				<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
 			</div>
-
-			<div class="col-9">
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsam quam reiciendis repudiandae totam. Illum ratione similique unde voluptas. Debitis distinctio ducimus enim et inventore magnam nostrum similique ullam veritatis?</p>
-
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
 			</div>
 			
 		</div>
@@ -54,6 +57,7 @@
 	</div>
 
 	<script src="js/scripts.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
