@@ -50,10 +50,23 @@ b, strong
 	background-color: rgba(34, 35,37, .4)
 	margin-bottom: 10%
 	.head-menu
-		font-size: 2.7rem
+		font-size: 2.2rem
 		margin-left: 3%
 		color: #9b7914
+		font-family: $default-font
 		font-weight: bold
+	.icon
+		position: absolute
+		font-size: 40px
+		color: #9b7914
+	.icon:hover
+		transform: scale(1.2) translateX(-0.3em) translateY(2px)
+		transition: transform .25s
+	.insta
+		right: 20px
+	.vk
+		right: 80px
+
 
 .contain
 	max-width: 25%
@@ -126,6 +139,7 @@ b, strong
 		padding-bottom: 20px
 		cursor: pointer
 		font-size: 1.6rem
+		font-family: $default-font
 		font-weight: bolder
 		text-transform: uppercase
 		text-decoration: none
@@ -150,6 +164,13 @@ b, strong
 		100%
 			transform: scale(1)
 			opacity: 1
+			
+.card-group
+	.card
+		.card-body
+			color: #000
+			.card-title
+
 
 
 
